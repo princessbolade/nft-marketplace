@@ -2,6 +2,7 @@ import { color } from "@chakra-ui/react";
 import React from "react";
 import Hero from "../../components/hero";
 import Nav from "../../components/navbar";
+import SubHero from "../../components/sub-hero";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         }}
       />
       <Hero />
+      <SubHero />
     </>
   );
 }
