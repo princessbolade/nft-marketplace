@@ -1,5 +1,6 @@
 import { color } from "@chakra-ui/react";
 import React from "react";
+import Hero from "../../components/hero";
 import Nav from "../../components/navbar";
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
           color: "black",
         }}
       />
+      <Hero />
     </>
   );
 }
