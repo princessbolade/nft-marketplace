@@ -1,4 +1,4 @@
-import { Box, Heading, Image, Text, Flex } from "@chakra-ui/react";
+import { Box, Heading, Image, Text, Flex, Button } from "@chakra-ui/react";
 import arrowUp from "../../assets/arrowUp.svg";
 import Image1 from "../../assets/imgGallery1.svg";
 import Image2 from "../../assets/imgGallery2.svg";
@@ -20,7 +20,7 @@ function Explore() {
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Heading>Trending Auctions</Heading>
         <Flex>
-          <Text>View all</Text>
+          <Text fontSize={"16px"}>View all</Text>
           <Image src={arrowUp} w={"30px"} />
         </Flex>
       </Flex>
@@ -37,6 +37,20 @@ function Explore() {
           ))}
         </Carousel>
       </Box>
+      <Flex alignItems={"center"} justifyContent={"center"} mt={"30px"}>
+        <Box
+          as="button"
+          textTransform={"uppercase"}
+          fontSize={"14px"}
+          bg={"#7222F0"}
+          color="white"
+          mx={"auto"}
+          padding={"12px 22px"}
+          textAlign={"center"}
+        >
+          View more
+        </Box>
+      </Flex>
     </Box>
   );
 }
