@@ -5,14 +5,13 @@ import React from "react";
 
 function SubHero() {
   return (
-    <Box mx={"auto"} maxW={"1200px"} py={"50px"}>
+    <Box mx={"auto"} maxW={"1440px"} py={"50px"}>
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Box>
-          <Box>
-            <Image src={Abstract} w={"1000px"} />
-          </Box>
+          <Image src={Abstract} w={"100%"} h={"500px"} />
         </Box>
-        <Box ml={"280px"}>
+
+        <Box ml="30px">
           <Heading fontSize={"44px"} color={"#7E7E7F"}>
             Fresh Kills
           </Heading>

@@ -17,7 +17,7 @@ const Images = [
 
 function Explore() {
   return (
-    <Box mx={"auto"} maxW={"1200px"} py="50px">
+    <Box mx={"auto"} maxW={"1440px"} py="50px">
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Box>
           <Text

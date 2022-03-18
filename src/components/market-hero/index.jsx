@@ -5,7 +5,7 @@ import React from "react";
 
 function Market() {
   return (
-    <Box mx={"auto"} maxW={"1200px"}>
+    <Box mx={"auto"} maxW={"1440px"}>
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Box>
           <Box>
@@ -23,11 +23,10 @@ function Market() {
                 NFT Marketplace
               </Heading>
               <Text pt={"25px"} lineHeight={"8"}>
-                Create your first art NFTs with NFT art for artists. <br />
-                Create art and music art videos just under the $1, <br /> the
-                platform works with BSC blockchain and supports oil painting.{" "}
-                <br />
-                With AirNFTs, you are getting the control over your NFTs, <br />{" "}
+                Create your first art NFTs with NFT art for artists. Create art
+                and music art videos just under the $1, <br /> the platform
+                works with BSC blockchain and supports oil painting. With
+                AirNFTs, you are getting the <br /> control over your NFTs,
                 Create, Buy, Sell and Earn with your art NFTs.
               </Text>
               <Box

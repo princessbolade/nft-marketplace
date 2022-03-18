@@ -11,7 +11,7 @@ function Home() {
       <Nav />
       <hr
         style={{
-          maxWidth: "1200px",
+          maxWidth: "1440px",
           margin: "0 auto",
           backgroundColor: "black",
           height: "1px",

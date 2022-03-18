@@ -4,7 +4,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <Box mx={"auto"} maxW="1200px" py={"40px"}>
+    <Box mx={"auto"} maxW="1440px" py={"40px"}>
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Image src={Logo} w={"150px"} color="#ec7027" />
         <UnorderedList listStyleType={"none"}>
