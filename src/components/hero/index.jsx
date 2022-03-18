@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import Bubbles from "../../assets/bubbles.svg";
 import herogirl from "../../assets/herogirl.svg";
 import arrowUp from "../../assets/arrowUp.svg";
@@ -12,7 +12,9 @@ function Hero() {
         <Flex alignItems={"center"} justifyContent={"space-between"}>
           <Box>
             <Box>
-              <Text fontWeight={"bold"}>D I S C O V E R </Text>
+              <Text fontWeight={"bold"} fontSize={"24px"}>
+                D I S C O V E R{" "}
+              </Text>
               <Image src={Bubbles} w={"150px"} pt={"15px"} />
             </Box>
             <Box pt={"35px"}>

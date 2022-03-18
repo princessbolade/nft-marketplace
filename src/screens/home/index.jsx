@@ -1,7 +1,7 @@
-import { color } from "@chakra-ui/react";
 import React from "react";
 import Explore from "../../components/explore";
 import Hero from "../../components/hero";
+import Market from "../../components/market-hero";
 import Nav from "../../components/navbar";
 import SubHero from "../../components/sub-hero";
 
@@ -22,6 +22,7 @@ function Home() {
       <Hero />
       <SubHero />
       <Explore />
+      <Market />
     </>
   );
 }

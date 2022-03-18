@@ -1,5 +1,6 @@
-import { Box, Heading, Image, Text, Flex, Button } from "@chakra-ui/react";
+import { Box, Image, Text, Flex } from "@chakra-ui/react";
 import arrowUp from "../../assets/arrowUp.svg";
+import Bubbles from "../../assets/bubbles.svg";
 import Image1 from "../../assets/imgGallery1.svg";
 import Image2 from "../../assets/imgGallery2.svg";
 import Image3 from "../../assets/imgGallery3.svg";
@@ -18,7 +19,17 @@ function Explore() {
   return (
     <Box mx={"auto"} maxW={"1200px"} py="50px">
       <Flex alignItems={"center"} justifyContent={"space-between"}>
-        <Heading>Trending Auctions</Heading>
+        <Box>
+          <Text
+            textTransform={"uppercase"}
+            fontWeight={"bold"}
+            fontSize={"24px"}
+            letterSpacing={"3"}
+          >
+            A u c t i o n s
+          </Text>
+          <Image src={Bubbles} w={"150px"} pt={"15px"} />
+        </Box>
         <Flex>
           <Text fontSize={"16px"}>View all</Text>
           <Image src={arrowUp} w={"30px"} />

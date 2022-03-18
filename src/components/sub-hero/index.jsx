@@ -2,7 +2,6 @@ import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import Abstract from "../../assets/abstract.svg";
 import arrowUp from "../../assets/arrowUp.svg";
 import React from "react";
-import { ArrowBackIcon, ArrowForwardIcon } from "@chakra-ui/icons";
 
 function SubHero() {
   return (
