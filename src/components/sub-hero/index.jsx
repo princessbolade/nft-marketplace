@@ -5,7 +5,7 @@ import React from "react";
 
 function SubHero() {
   return (
-    <Box mx={"auto"} maxW={"1440px"} py={"50px"}>
+    <Box mx={"auto"} maxW={"1440px"} py={"100px"}>
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Box>
           <Image src={Abstract} w={"100%"} h={"500px"} />

@@ -7,8 +7,8 @@ import Hero from "../../components/hero";
 import Market from "../../components/market-hero";
 import Nav from "../../components/navbar";
 import SubHero from "../../components/sub-hero";
-import { Box, Image, Flex } from "@chakra-ui/react";
-import TopContributors from "../../components/top-contributors";
+import { Image, Flex } from "@chakra-ui/react";
+import TopSellers from "../../components/top-contributors";
 
 const sponsors = [{ src: binance }, { src: eth }, { src: blockchain }];
 
@@ -35,6 +35,7 @@ function Home() {
         flexDir={"row"}
         justifyContent={"space-between"}
         py={"50px"}
+        my={"50px"}
         bg={"linear-gradient(257.38deg, #7222F0 0%, #F72DB1 100%)"}
         mx={"auto"}
         maxW={"1440px"}
@@ -43,7 +44,7 @@ function Home() {
           <Image key={i} src={items.src} w={"100%"} h={"50px"} />
         ))}
       </Flex>
-      <TopContributors />
+      <TopSellers />
     </>
   );
 }

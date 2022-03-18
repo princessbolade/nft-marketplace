@@ -5,7 +5,7 @@ import React from "react";
 
 function Market() {
   return (
-    <Box mx={"auto"} maxW={"1440px"}>
+    <Box mx={"auto"} maxW={"1440px"} py={"100px"}>
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Box>
           <Box>

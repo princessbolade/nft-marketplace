@@ -17,7 +17,7 @@ const Images = [
 
 function Explore() {
   return (
-    <Box mx={"auto"} maxW={"1440px"} py="50px">
+    <Box mx={"auto"} maxW={"1440px"} py="100px">
       <Flex alignItems={"center"} justifyContent={"space-between"}>
         <Box>
           <Text
@@ -48,7 +48,7 @@ function Explore() {
           ))}
         </Carousel>
       </Box>
-      <Flex alignItems={"center"} justifyContent={"center"} mt={"30px"}>
+      <Flex alignItems={"center"} justifyContent={"center"} mt={"50px"}>
         <Box
           as="button"
           textTransform={"uppercase"}
@@ -56,7 +56,7 @@ function Explore() {
           bg={"#7222F0"}
           color="white"
           mx={"auto"}
-          padding={"12px 22px"}
+          padding={"16px 52px"}
           textAlign={"center"}
         >
           View more
