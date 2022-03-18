@@ -1,16 +1,4 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Image,
-  ListItem,
-  UnorderedList,
-  Menu,
-  MenuList,
-  MenuButton,
-  MenuItem,
-} from "@chakra-ui/react";
-import { ChevronDownIcon } from "@chakra-ui/icons";
+import { Box, Flex, Image, ListItem, UnorderedList } from "@chakra-ui/react";
 import Logo from "../../assets/logo.svg";
 import React from "react";
 
