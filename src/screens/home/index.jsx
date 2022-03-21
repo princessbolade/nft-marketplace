@@ -10,6 +10,7 @@ import SubHero from "../../components/sub-hero";
 import { Image, Flex } from "@chakra-ui/react";
 import TopSellers from "../../components/top-contributors";
 import GetStarted from "../../components/get-started";
+import Footer from "../../components/footer";
 
 const sponsors = [{ src: binance }, { src: eth }, { src: blockchain }];
 
@@ -47,6 +48,7 @@ function Home() {
       </Flex>
       <TopSellers />
       <GetStarted />
+      <Footer />
     </>
   );
 }
