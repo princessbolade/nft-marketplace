@@ -1,6 +1,7 @@
 import { Box, Flex, Image, ListItem, UnorderedList } from "@chakra-ui/react";
 import Logo from "../../assets/logo.svg";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
@@ -19,16 +20,18 @@ function Nav() {
           </Flex>
         </UnorderedList>
         <Flex alignItems={"center"} justifyContent={"flex-end"}>
-          <Box
-            as="button"
-            textTransform={"uppercase"}
-            fontSize={"14px"}
-            bg={"#7222F0"}
-            color="white"
-            padding={"12px 22px"}
-          >
-            Connect Wallet
-          </Box>
+          <Link to="/profile-page">
+            <Box
+              as="button"
+              textTransform={"uppercase"}
+              fontSize={"14px"}
+              bg={"#7222F0"}
+              color="white"
+              padding={"12px 22px"}
+            >
+              Connect Wallet
+            </Box>
+          </Link>
         </Flex>
       </Flex>
     </Box>
