@@ -29,7 +29,7 @@ function Nav() {
               color="white"
               padding={"12px 22px"}
             >
-              Connect Wallet
+              View Wallet
             </Box>
           </Link>
         </Flex>

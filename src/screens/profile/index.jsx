@@ -1,10 +1,11 @@
-import { Box, Heading } from "@chakra-ui/react";
+import { Box, Flex, Heading } from "@chakra-ui/react";
 import React from "react";
+import Login from "../../components/log-in";
 
 function Profile() {
   return (
     <Box>
-      <Heading>Hello</Heading>
+      <Login />
     </Box>
   );
 }
